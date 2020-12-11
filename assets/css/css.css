@@ -1,0 +1,182 @@
+*{
+    font-family: 'Quicksand', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.erro img{
+    height: 5rem;
+}
+.erro{
+    margin: auto;
+    text-align: center;
+}
+.qrcode{
+    text-align: center;
+    background-color: white;
+    width: auto;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 117, 146);
+}
+.resultado{
+    text-align: center;
+}
+.link{
+    text-align: center;
+}
+
+.bloco-link{
+    border-bottom: 1px solid black;
+    margin: auto;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    background-color: white;
+    margin-bottom: 0.5rem;
+    height: 3rem;
+    width: 60%;
+}
+.desc-link{
+    height: 100%;
+    background-color: rgb(0, 0, 0)!important;
+    color: white;
+    padding: 0.5rem;
+}
+.button-copy{
+    margin-left: 0.3rem;
+    border-radius: 0.2rem;
+    height: 2rem;
+    transition: 400ms;
+    border: none;
+    border:1px solid  red;
+    font-size: 15px;
+    padding: 0.2rem;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    background-color: white;
+    outline: none;
+    margin-right: 1rem;
+}
+.button-copy:hover{
+    background-color: red;
+    color: white;
+}
+
+.section-1{
+    background-color: rgb(3, 21, 54);
+}
+.box-url{
+    text-align: center;
+}
+.input-submit{
+    margin-top: 0.5rem;
+    border: none;
+    background-color: rgb(36, 105, 255);
+    color: white;
+    transition: 400ms;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    height: 3rem;
+    font-size: 16px;
+    height: 3rem;
+}
+.input-submit:hover{
+    color:  rgb(36, 105, 255)!important;
+    background-color: white;
+}
+.txt-logo{
+    justify-content: center;
+    display: flex;
+}
+
+.txt-logo h1{
+    margin-left: 0.5rem;
+}
+.input-text:focus{
+    border: 1px solid rgb(36, 36, 255);
+}
+.input-text{
+    border: 1px solid grey;
+    outline: none;
+    border-radius: 4px;
+    font-size: 16px;
+    padding-left: 0.3rem;
+    height: 3rem;
+    width: 400px;
+}
+.logo{
+    color: white;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+input{
+    margin: 0;
+}
+.div-flex-column{
+    display: flex;
+    flex-direction: column;
+}
+.div-flex{
+    display: flex;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+}
+
+.main{
+    align-content: center;
+}
+
+.container{
+
+    padding: 1.4rem;
+}
+.header{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    padding: 0.9rem;
+    width: 100%;
+    background-color: black;
+    box-shadow: 2px 2px 5px  rgb(77, 77, 77);
+}
+#txt-pluc{
+    font-size:40px;
+    color: rgb(0, 183, 255);
+}
+#txt-enc{
+    font-size: 20px;
+}
+@media screen and (max-width: 700px){
+
+    .container{
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+    input{
+        font-size: 16px;
+        height: 3rem;
+        width: 100%!important;
+    }
+    .desc-link{
+        color: white;
+        padding: 0.3rem;
+
+    }.bloco-link{
+        font-size: 15px;
+        margin-bottom: 0.3rem;
+        height: 3rem;
+    }
+    .bloco-link{
+        width: 100%;
+    }
+    
+}

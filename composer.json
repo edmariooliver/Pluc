@@ -1,0 +1,13 @@
+{
+    "name": "vendor/encurtador_link",
+    "authors": [
+        {
+            "name": "edmariooliver",
+            "email": "barrigacraft@hotmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4",
+		"chillerlan/php-qrcode": "^4.3"
+    }
+}
