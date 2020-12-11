@@ -11,7 +11,7 @@ class Database
     static function connect()
     {
         try{
-            $db = new \PDO('mysql:host=Localhost;dbname=id15654142_links','id15654142_projetopluc',')*IYt<L}^g-A]8Q|');
+            $db = new \PDO('mysql:host=000webhost.com;dbname=id15654142_links','id15654142_projetopluc',')*IYt<L}^g-A]8Q|');
             return $db;
         }catch(PDOException $erro){
 
