@@ -11,7 +11,7 @@ class Database
     static function connect()
     {
         try{
-            $db = new \PDO('mysql:host=localhost;dbname=pluto_encurt','root','');
+            $db = new \PDO('mysql:host=localhost;dbname=id15654142_plutolink','id15654142_pluc','aL$H-{0dUKH1pcg]');
             return $db;
         }catch(PDOException $erro){
 
