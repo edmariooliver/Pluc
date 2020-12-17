@@ -11,7 +11,7 @@ class Database
     static function connect()
     {
         try{
-            $db = new \PDO('mysql:host=remotemysql.com;dbname=WOqNCfvjkQ','WOqNCfvjkQ','NZ30C2IHMt');
+            $db = new \PDO("");
             return $db;
         }catch(PDOException $erro){
 
