@@ -106,8 +106,5 @@
                 </div>
             </div>
         </div>
-    <footer class="footer">
-        Pluto Cut
-    </footer>
 </body>
 </html>
